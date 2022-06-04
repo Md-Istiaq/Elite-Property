@@ -1,0 +1,72 @@
+[
+    {
+        "img":"https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name":"Asatti Graden City",
+        "address":"929 W Jefferson Blvd Suite 1670, Los Angeles, CA 90089, United States",
+        "price":173000,
+        "description":"5 bed,4 washroom,1900 square feet,"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1175&q=80",
+        "name":"Mediterranean style villa",
+        "address":"1081 Fullerton Rd, City of Industry, CA 91748, United States",
+        "price":284000,
+        "description":"8 bed,6 washroom,2700 square feet"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name":"Aliva Priva Jardin",
+        "address":"129 Pohakulana Pl, Honolulu, HI 96819, United States",
+        "price":197000,
+        "description":"6 bed,5 washroom,2100 square feet"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1499814375754-a481db8ab6c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "name":"Luxury Desert Home",
+        "address":" 1501 Eckington Pl NE, Washington, DC 20002, United States",
+        "price":356000,
+        "description":"12 bed,10 washroom,4300 square feet,"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1505843513577-22bb7d21e455?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+        "name":"Kings vila",
+        "address":"902 Ross Ave, Dallas, TX 75202, United States",
+        "price":393000,
+        "description":"14 bed,12 washroom,4900 square feet,"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1499814375754-a481db8ab6c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "name":"Luxury Desert Home",
+        "address":" 1501 Eckington Pl NE, Washington, DC 20002, United States",
+        "price":356000,
+        "description":"12 bed,10 washroom,4300 square feet,"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name":"Swimming pool side of the residential Ascot home.",
+        "address":"10000 NW 21st St, Miami, FL 33172, United States",
+        "price":257000,
+        "description":"7 bed,5 washroom,2400 square feet"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1566519648732-ba06372eb7b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=775&q=80",
+        "name":"Cottesloe beach lifesavers clubhouse",
+        "address":"6100 NW 36th St, Miami, FL 33166, United States",
+        "price":207000,
+        "description":"9 bed,7 washroom,3000 square feet"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "name":"Citraland Puri Serang",
+        "address":"3333 S Grand Ave, Los Angeles, CA 90007, United States",
+        "price":169000,
+        "description":"4 bed,3 washroom,1800 square feet"
+    },
+    {
+        "img":"https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "name":"bae area luxarious house",
+        "address":" 2600 SW 39th St, Fort Lauderdale, FL 33312, United States",
+        "price":239000,
+        "description":"8 bed,6 washroom,3100 square feet"
+    }
+]

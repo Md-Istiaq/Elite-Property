@@ -22,7 +22,6 @@ const Banner = () => {
       <p className='text-left text-2xl'>Reviews</p>
       </div>
       </div>
-      <button class="btn btn-primary">Get Started</button>
     </div>
   </div>
 </div>
