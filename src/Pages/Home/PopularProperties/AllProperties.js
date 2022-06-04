@@ -13,7 +13,7 @@ const AllProperties = () => {
            <div className='lg:grid md:grid lg:grid-cols-3 md:grid-cols-2'>
                 {
                     properties.map(property =>
-                    <div class="card card-compact w-96 bg-stone-800 shadow-xl m-10">
+                    <div class="card card-compact w-96 bg-stone-800 shadow-xl lg:m-10 md:m-10">
                     <figure><img src={property.img}alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">{property.name}</h2>

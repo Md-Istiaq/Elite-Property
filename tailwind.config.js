@@ -3,7 +3,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-
   daisyui: {
     themes: [
       "forest"

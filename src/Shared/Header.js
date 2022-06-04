@@ -5,6 +5,7 @@ const Header = () => {
     const menuItems = <>
     <li class=""><Link to="/home">Home</Link></li>
     <li class=""><Link to="/blogs">Blogs</Link></li>
+    <li class=""><Link to="/login">LogIn</Link></li>
     </>
     return (
 <div class="navbar bg-base-100">
