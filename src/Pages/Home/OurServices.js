@@ -11,7 +11,7 @@ const OurServices = () => {
         <p>In a free hour,when our power of choice is untrammelled and when nothing prevents our being able to do what we like best.<br/>
         <div className='grid grid-cols-2 mt-10'>
             <p className='flex flex-cols mb-10'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Noyu24lzpSn14i9SCr071Ki9Z0Qzkvnnd25AEl6e3YpqtsSUGl70GPBVBenqVukJ8h0&usqp=CAU" alt="" className='w-6 mr-5' /> Best Market</p>
-            <p className='flex flex-cols mb-10'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Noyu24lzpSn14i9SCr071Ki9Z0Qzkvnnd25AEl6e3YpqtsSUGl70GPBVBenqVukJ8h0&usqp=CAU" alt=""  className='w-6 mr-5'/> unstable price</p>
+            <p className='flex flex-cols mb-10'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Noyu24lzpSn14i9SCr071Ki9Z0Qzkvnnd25AEl6e3YpqtsSUGl70GPBVBenqVukJ8h0&usqp=CAU" alt=""  className='w-6 mr-5'/> Stable price</p>
             <p className='flex flex-cols'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Noyu24lzpSn14i9SCr071Ki9Z0Qzkvnnd25AEl6e3YpqtsSUGl70GPBVBenqVukJ8h0&usqp=CAU" alt="" className='w-6 mr-5' /> Top sell</p>
             <p className='flex flex-cols'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Noyu24lzpSn14i9SCr071Ki9Z0Qzkvnnd25AEl6e3YpqtsSUGl70GPBVBenqVukJ8h0&usqp=CAU" alt=""  className='w-6 mr-5'/> Security of data</p>
         </div></p>
