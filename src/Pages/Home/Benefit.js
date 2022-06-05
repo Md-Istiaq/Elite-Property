@@ -5,7 +5,7 @@ const Benefit = () => {
         <div>
             <div class="hero min-h-screen bg-base-300">
            <div class="hero-content flex-col lg:flex-row-reverse">
-             <img src="https://images.unsplash.com/photo-1503900311769-9f25e9f06068?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHViYWklMjBuaWdodCUyMHZpZXd8ZW58MHx8MHx8&w=1000&q=80" class=" rounded-lg shadow-2xl lg:w-1/2"/>
+             <img src="https://images.unsplash.com/photo-1503900311769-9f25e9f06068?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHViYWklMjBuaWdodCUyMHZpZXd8ZW58MHx8MHx8&w=1000&q=80" class=" rounded-lg shadow-2xl lg:w-1/2 border-8 border-stone-700"/>
              <div>
                  <p className='text-green-400'>Our Value</p>
                <h1 class="text-5xl font-bold">Value we give to you</h1>

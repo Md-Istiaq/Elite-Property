@@ -1,6 +1,7 @@
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
 import 'font-awesome/css/font-awesome.min.css';
+import 'tw-elements';
 import Header from './Shared/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';

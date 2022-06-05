@@ -1,0 +1,20 @@
+[
+    {
+        "name":"jonas",
+        "img":"https://w7.pngwing.com/pngs/312/283/png-transparent-man-s-face-avatar-computer-icons-user-profile-business-user-avatar-blue-face-heroes.png",
+        "review":"Wow! Made buying a house such a breeze! I was new to home buying, and have heard horror stories from friends and family about terrible agents. (RN) was professional and personal! She never made me feel uncomfortable and helped me every step of the way!",
+        "ratings":4.8
+    },
+    {
+        "name":"david",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO4UxJO_flRww7WXHnIwuxAeX0kgkqlviKhgPzgg2hHdXW0YjdQucZegboJdxBAoFyD40&usqp=CAU",
+        "review":"Great environment, professional and nice people, clean and beautiful office set up. They care about their clients and train their agents frequently so they are always updated with what’s going on in the market. I recommend (RN) to anyone looking to do any Real Estate transaction.",
+        "ratings":4.6
+    },
+    {
+        "name":"jonson",
+        "img":"https://e7.pngegg.com/pngimages/340/946/png-clipart-avatar-user-computer-icons-software-developer-avatar-child-face.png",
+        "review":"(RN) was the agent for the apartment we purchased last January in the same building he lives in. (RN) was extremely helpful, transparent, and reliable through the whole process, he really cared about us, understood our needs from the very first open house even giving us ideas on how better utilize the space.",
+        "ratings":4.5
+    }
+]
