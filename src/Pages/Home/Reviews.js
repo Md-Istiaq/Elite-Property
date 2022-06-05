@@ -13,7 +13,7 @@ const Reviews = () => {
             <div className='lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 lg:ml-20 md:ml-10 mb-10'>
                 {
                     reviews.map(review => 
-                    <div class="card w-96 bg-base-100 shadow-xl border border-green-400">
+                    <div class="card w-96 bg-base-100 border-8 border-green-400">
                       <figure class="px-10 pt-10">
                         <img src={review.img}alt="Shoes" class="rounded-xl" />
                       </figure>
