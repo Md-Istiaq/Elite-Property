@@ -8,6 +8,9 @@ import Home from './Pages/Home/Home';
 import Blogs from './Pages/Blogs/Blogs';
 import AllProperties from './Pages/Home/PopularProperties/AllProperties';
 import Login from './Pages/Login/Login';
+import Sell from './Pages/Sell/Sell';
+import { ToastContainer } from 'react-toastify';
+import SignUp from './Pages/Login/SignUp';
 function App() {
   return (
     <div>
@@ -17,8 +20,11 @@ function App() {
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/blogs' element={<Blogs/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
+        <Route path='/signup' element={<SignUp/>}></Route>
         <Route path='/allproperties' element={<AllProperties/>}></Route>
+        <Route path='/sell' element={<Sell/>}></Route>
       </Routes>
+      <ToastContainer/>
     </div>
   );
 }

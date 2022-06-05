@@ -1,5 +1,4 @@
 import React ,{useState,useEffect} from 'react';
-
 const Reviews = () => {
     const [reviews,setReviews] = useState([])
     useEffect( () =>{

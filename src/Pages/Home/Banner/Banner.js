@@ -9,7 +9,7 @@ const Banner = () => {
       <h1 class="text-5xl font-bold">Discover the ideal property here</h1>
       <p class="py-6">Find a variety of properties that suits you very easily. Forget all difficulties in finding a residence for you.</p>
       <div className='lg:flex lg:flex-cols'>
-      <div className=" lg:m-10 ">
+      <div className=" lg:mr-10 lg:mt-10 lg:mb-10">
       <h1 className='text-3xl text-green-500 text-left'>1.5k+</h1>
       <p className='text-left text-2xl'>Properties</p>
       </div>
@@ -17,7 +17,7 @@ const Banner = () => {
       <h1 className='text-3xl text-green-500 text-left'>2k+</h1>
       <p className='text-left text-2xl'>Happy Customer</p>
       </div>
-      <div className=" lg:m-10">
+      <div className=" lg:ml-10 lg:mt-10 lg:mb-10">
       <h1 className='text-3xl text-green-500 text-left'>280+</h1>
       <p className='text-left text-2xl'>Reviews</p>
       </div>

@@ -12,7 +12,7 @@ const PopularProperties = () => {
         <div>
             <div className='flex flex-cols justify-between align-center'>
             <h1 className='text-green-400 text-3xl font-bold m-10'>Featured Residence</h1>
-            <Link to="/allproperties" className='m-10 hover:text-green-400'>See All Proprties</Link>
+            <Link to="/allproperties" className='m-10 hover:text-green-400'>See All Proprties →</Link>
             </div>
             <div className='lg:grid md:grid lg:grid-cols-3 md:grid-cols-2 ml-3 '>
                 {
