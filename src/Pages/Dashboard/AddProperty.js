@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 const AddProperty = () => {
     const { register, handleSubmit ,formState: { errors }} = useForm();
     const onSubmit = data => {
-        const url = 'http://localhost:5000/properties'
+        const url = 'https://cryptic-bastion-60889.herokuapp.com/properties'
         fetch(url ,{
             method:'POST',
             headers:{

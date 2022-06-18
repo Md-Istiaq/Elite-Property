@@ -3,14 +3,14 @@ import { toast } from 'react-toastify';
 const ManageProperty = () => {
     const [properties,setproperties] = useState([])
     useEffect( () =>{
-        fetch('http://localhost:5000/properties')
+        fetch('https://cryptic-bastion-60889.herokuapp.com/properties')
         .then(res => res.json())
         .then(data => setproperties(data))
     } ,[])
     const Delete = id =>{
         const proceed = window.confirm("are you sure you want to delete??")
         if(proceed){
-          const url = `http://localhost:5000/properties/${id}`
+          const url = `https://cryptic-bastion-60889.herokuapp.com/properties/${id}`
           fetch(url,{
             method:'DELETE'
           })

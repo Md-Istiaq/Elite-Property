@@ -12,7 +12,7 @@ const Booking = () => {
     const [user] = useAuthState(auth)
     const { register, handleSubmit ,formState: { errors }} = useForm({});
     useEffect( () =>{
-        fetch(`http://localhost:5000/property/${id}`)
+        fetch(`https://cryptic-bastion-60889.herokuapp.com/property/${id}`)
         .then(res => res.json())
         .then(data => {
             setProperty(data)
@@ -31,7 +31,7 @@ const Booking = () => {
             img:property.img,
             propertyAddress:property.address
         }
-        const url = `http://localhost:5000/orders`
+        const url = `https://cryptic-bastion-60889.herokuapp.com/orders`
         fetch(url ,{
           method:'POST',
           headers:{

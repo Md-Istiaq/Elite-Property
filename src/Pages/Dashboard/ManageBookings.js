@@ -3,7 +3,7 @@ import React, { useEffect , useState } from 'react';
 const ManageBookings = () => {
     const [bookings , setBookings] = useState([])
     useEffect( () =>{
-        fetch('http://localhost:5000/orders')
+        fetch('https://cryptic-bastion-60889.herokuapp.com/orders')
         .then(res => res.json())
         .then(data => setBookings(data))
     } ,[])

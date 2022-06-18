@@ -5,7 +5,7 @@ const PopularProperties = () => {
     const [properties,setproperties] = useState([])
     const Navigate = useNavigate()
     useEffect( () =>{
-        fetch('http://localhost:5000/properties')
+        fetch('https://cryptic-bastion-60889.herokuapp.com/properties')
         .then(res => res.json())
         .then(data => setproperties(data))
     } ,[])

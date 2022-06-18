@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 const MakeAdmin = () => {
     const [users, setUsers] = useState([])
     useEffect( () =>{
-        fetch('http://localhost:5000/user' ,{
+        fetch('https://cryptic-bastion-60889.herokuapp.com/user' ,{
             method:'GET',
             headers:{
                 authorization:`bearer ${localStorage.getItem('accessToken')}`
@@ -14,7 +14,7 @@ const MakeAdmin = () => {
     } ,[])
 
     const makeAdmin = email =>{
-        fetch(`http://localhost:5000/users/admin/${email}`,{
+        fetch(`https://cryptic-bastion-60889.herokuapp.com/users/admin/${email}`,{
             method:'PUT',
             headers:{
                 authorization: `Bearer`

@@ -7,7 +7,7 @@ const MyOrder = () => {
     const [orders , setOrders] = useState([])
     const email = user.email
     useEffect( () =>{
-        fetch(`http://localhost:5000/orders/${email}`)
+        fetch(`https://cryptic-bastion-60889.herokuapp.com/orders/${email}`)
         .then(res => res.json())
         .then(data => setOrders(data))
 
@@ -15,7 +15,7 @@ const MyOrder = () => {
     const Delete = id =>{
         const proceed = window.confirm("are you sure you want to delete??")
         if(proceed){
-          const url = `http://localhost:5000/order/${id}`
+          const url = `https://cryptic-bastion-60889.herokuapp.com/order/${id}`
           fetch(url,{
             method:'DELETE'
           })
