@@ -4,6 +4,8 @@ import {Link , useLocation, useNavigate} from 'react-router-dom'
 import {useSignInWithGoogle} from 'react-firebase-hooks/auth'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../_firebase.init';
+import useToken from '../../hooks/useToken';
+import {toast} from 'react-toastify'
 const Login = () => {
     const [signInWithGoogle, Guser, Gloading, Gerror] = useSignInWithGoogle(auth);
     const [
@@ -18,8 +20,14 @@ const Login = () => {
     };
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const Navigate = useNavigate()
-    if( Guser|| user){
-        Navigate('/home')
+    const [token] = useToken(user || Guser)
+    const location = useLocation()
+    let from = location.state?.from?.pathname || "/";
+    if( token){
+      Navigate(from , {replace:true})
+    }
+    if(error || Gerror){
+      toast.error(error || Gerror)
     }
     return (
         <div class="hero min-h-screen bg-base-200">

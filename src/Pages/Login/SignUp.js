@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import {Link, useNavigate} from 'react-router-dom'
 import {toast} from 'react-toastify'
 import { async } from '@firebase/util';
+import useToken from '../../hooks/useToken';
 const SignUp = () => {
     const [signInWithGoogle, Guser, Gloading, Gerror] = useSignInWithGoogle(auth);
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
@@ -17,6 +18,7 @@ const SignUp = () => {
         error,
       ] = useCreateUserWithEmailAndPassword(auth);
       const Navigate = useNavigate()
+      const [token] = useToken(user || Guser)
       const onSubmit = async data =>{ 
         console.log(data)
        await createUserWithEmailAndPassword(data.email,data.password)
@@ -24,6 +26,9 @@ const SignUp = () => {
     };
       if(user || Guser){
         Navigate('/home')
+      }
+      if(error || Gerror){
+        toast.error(error || Gerror)
       }
     return (
         <div class="hero min-h-screen bg-base-200">

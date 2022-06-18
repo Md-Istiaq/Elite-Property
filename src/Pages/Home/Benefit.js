@@ -3,11 +3,11 @@ import React from 'react';
 const Benefit = () => {
     return (
         <div>
-            <div class="hero min-h-screen bg-base-300">
+            <div class="hero min-h-screen">
            <div class="hero-content flex-col lg:flex-row-reverse">
              <img src="https://images.unsplash.com/photo-1503900311769-9f25e9f06068?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHViYWklMjBuaWdodCUyMHZpZXd8ZW58MHx8MHx8&w=1000&q=80" class=" rounded-lg shadow-2xl lg:w-1/2 border-8 border-stone-700"/>
              <div>
-                 <p className='text-green-400'>Our Value</p>
+                 <p className='text-primary'>Our Value</p>
                <h1 class="text-5xl font-bold">Value we give to you</h1>
                <p class="py-6">We always ready to help by providing best services for you.We believe a good place to live can make your life batter. we develop a reputation for trust and will have that reputation for years to come</p>
                <div className=''>

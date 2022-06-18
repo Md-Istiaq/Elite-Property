@@ -3,7 +3,7 @@ import React,{useState,useEffect} from 'react';
 const Blogs = () => {
     const [blogs , setBlogs] = useState([])
     useEffect(() =>{
-        fetch('blogs.json')
+        fetch('http://localhost:5000/blogs')
         .then(res => res.json())
         .then(data => setBlogs(data))
     } ,[])
